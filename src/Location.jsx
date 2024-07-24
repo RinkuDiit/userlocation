@@ -23,7 +23,7 @@ function Location() {
           setlocation(data.results[0].formatted)
         }
        fetchapi();
-    },[])
+    },[longitude,latitude])
 
     if (!location) {
         return(
