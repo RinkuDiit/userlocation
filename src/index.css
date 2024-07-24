@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.fillform{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.locationdata{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+table{
+  border-color: aqua !important;
+  border-radius: 10px;
+  padding: 20px;
+}
